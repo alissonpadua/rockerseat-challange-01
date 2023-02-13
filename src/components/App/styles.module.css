@@ -1,0 +1,45 @@
+.app {
+    padding: 0 100px;
+}
+
+.app .form {
+   display: flex;
+   gap: .5rem;
+   margin-top: calc(-1.5rem);
+}
+
+.app .counters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 0 1.5rem 0;
+}
+
+.app .taskWrap {
+    display: flex;
+    gap: .75rem;
+    flex-direction: column;
+}
+
+.app .noTask {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 1px solid var(--gray-400);
+    border-radius: .5rem;
+    padding: 4rem 1.5rem;
+}
+
+.app .noTask .title {
+    margin-top: 1rem;
+    font-weight: 700;
+    color: var(--gray-300);
+    line-height: 140%;
+}
+
+.app .noTask .subtitle {
+    font-weight: 400;
+    color: var(--gray-300);
+    line-height: 140%;
+}

@@ -1,0 +1,20 @@
+.input {
+    width: 100%;
+    background-color: var(--gray-500);
+    border: 1px solid var(--gray-700);
+    color: var(--gray-100);
+    border-radius: .5rem;
+    padding: 1rem;
+    outline: 0;
+}
+
+.input:focus {
+    border: 1px solid var(--purple-dark);
+}
+
+.input::placeholder,
+.input::-ms-input-placeholder
+{
+    color: var(--gray-300);
+    opacity: 1;
+}

@@ -1,0 +1,21 @@
+.task {
+    display: flex;
+    align-items: flex-start;
+    gap: .75rem;
+    padding: 1.312rem 1rem;
+
+    background: var(--gray-500);
+    border: 1px solid var(--gray-400);
+    box-shadow: 0 .125rem .5rem rgba(0, 0, 0, 0.06);
+    border-radius: .5rem;
+}
+
+.task p {
+    color: var(--gray-100);
+    font-size: .875rem;
+}
+
+.task .done {
+    text-decoration: line-through;
+    color: var(--gray-300);
+}
